@@ -1,0 +1,186 @@
+
+.l{
+    color:#c9a24d ;
+    font-family: 'Comic Sans MS', cursive;
+}
+.log{
+    font-size: 60px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+     box-shadow: 10px 10px 10px rgba(204, 20, 20, 0.3);
+}
+.x{
+    color: white;
+    font-family: 'Comic Sans MS', cursive;
+}
+header{
+    background-image: url("https://th.bing.com/th/id/OIP.reAKF62OqElIsbz2kcmPAgHaEJ?w=270&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3");
+     height: 120vh;
+   background-size: cover;
+     margin-top: 30px;
+     background-repeat: no-repeat;
+     animation: dropIn 0.8s ease-out forwards;
+}
+@keyframes dropIn {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.main-div{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 4rem;
+    margin-bottom: 6rem;
+}
+#image{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+button{
+    margin-left: 170px;
+    font-size: larger;
+    color: brown;
+}
+.q{
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: x-large;
+     margin-left: 40px;
+      margin-top: 20px;
+}
+.w{
+     font-weight: bold;
+    font-size: x-large;
+     margin-left: 40px;
+      margin-top: 20px;
+}
+.earing{
+    height: 490px;
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: darkgrey;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+.earing:hover{
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+#image-3{
+     padding-left: 30px;
+    padding-top: 14px;
+    height: 17rem;
+    width: 15rem;
+}
+.image-hide {
+    font-size: 40px;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+.Back-page{
+    border: 2px solid #232f3e;
+    height: 5rem;
+    width: 14rem;
+     border-radius: 10px;
+     box-shadow: 10px 10px 10px rgba(32, 5, 188, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Back-page:hover {
+    transform: translateY(-10px) scale(1.03);
+   
+     box-shadow: 10px 10px 10px rgba(113, 6, 6, 0.4);
+}
+.image-link{
+   display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+a{
+  color: rgb(9, 77, 72);
+   text-decoration: none;
+}
+.second{
+     margin-bottom: 6rem;
+}
+footer{
+    background-color: #232f3e;
+}
+.z{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.n{
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    display: flex;
+   line-height: 3rem;
+}
+.vv{
+    display: inline-block;
+   position: relative;
+}
+.v{
+    display: inline-block;
+
+}
+.r{
+    background-color: #37475a;
+    height: 30px;
+}
+.vh{
+     display: inline-block;
+}
+.vhh{
+    display: inline-block;
+
+}
+.l{
+    color:#c9a24d ;
+}
+.log{
+    font-size: 60px;
+}
+.x{
+    color: white;
+}
+.end{
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#thanks{
+    display: block;
+    font-size: 2rem;
+    color: lightyellow;
+   
+}
+.end-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+   color: #c9a24d; 
+}
+.main-div-1{
+    display: flex;
+    flex-wrap:wrap ;
+    gap:2rem ;
+    justify-content: space-between;
+    padding:20px 50px;
+}

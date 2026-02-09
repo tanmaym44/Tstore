@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+       <div class="log"><span class="l">T</span><span class="x">store</span></div>
+     <div class="nav-elements">
+        <a href="./Home.html" class="home">Home</a>
+        <a href="./Men.html">Men</a>
+        <a href="./Women.html">Women</a>
+        <a href="./Kids.html">Kids</a>
+</div>
+
+    </nav>
+    <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f" id="a">
+
+
+    <div class="gg">
+
+   <div class="k card">
+    <img src="https://th.bing.com/th/id/OIP.-8LMhLzwZRSPLlt2CuUjHAHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" id="c">
+    <p class="q">Price : 1999</p>
+    <p class="w">30 - 40% OFF</p>
+    <p class="w">Total : 1199</p>
+    <button>Add To Cart</button>
+   </div>
+
+   <div class="h  card">
+    <img src="https://th.bing.com/th/id/OIP.5SA7yOL7Q6iRxcKHrJklKgHaNK?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" id="c">
+    <p class="q">Price : 1599</p>
+    <p class="w">30 - 40% OFF</p>
+    <p class="w">Total : 999</p>
+    <button>Add To Cart</button>
+   </div>
+
+    <div class="hh card">
+    <img src="https://th.bing.com/th/id/OIP.3xxUduroFf9AZTNw-RwxPgHaLI?w=203&h=306&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" id="c">
+    <p class="q">Price : 1599</p>
+    <p class="w">30 - 40% OFF</p>
+    <p class="w">Total : 1099</p>
+    <button class="c">Add To Cart</button>
+   </div>
+
+    <div class="hh card">
+    <img src="https://th.bing.com/th/id/OIP.zrfzBiFmZw8LqSEtKKI09gHaLH?w=129&h=193&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" id="c">
+    <p class="q">Price : 1599</p>
+    <p class="w">30 - 40% OFF</p>
+    <p class="w">Total : 1099</p>
+    <button class="c">Add To Cart</button>
+   </div>
+
+   <script>
+const cards = document.querySelectorAll('.card');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+}, {
+    threshold: 0.2
+});
+
+cards.forEach(card => observer.observe(card));
+</script>
+
+
+   </div>
+   <hr>
+
+   <div class="r">
+
+   </div>
+
+   <footer>
+      <div class="main-div">
+        <div class="vv">
+        <p class="z">Get to know us</p>
+        <a href="About website" class="n">About Tstore</a>
+         <a href="Carrer" class="n">Carrer</a>
+          <a href="Website science" class="n">Tstore science</a>
+          </div>
+
+          <div class="v">
+            <p class="z">Contact with us</p>
+            <a href="About website" class="n">Instagram</a>
+         <a href="Carrer" class="n">Twitter</a>
+          <a href="Website science" class="n">Facebook</a>
+          </div>
+
+           <div class="vh">
+            <p class="z">Make Money with Us</p>
+            <a href="About website" class="n">Sell on Tstore</a>
+         <a href="Carrer" class="n">Build your own product</a>
+          <a href="Website science" class="n">Supply to Tstore</a>
+            <a href="About website" class="n">Become an affiliate</a>
+              <a href="About website" class="n">Fulfilment by Tstore</a>
+                <a href="About website" class="n">Advertise your products</a>
+                  <a href="About website" class="n">Tstore pay on Merchant</a>
+          </div>
+
+          <div class="vhh">
+             <p class="z">Let Us help You</p>
+              <a href="About website" class="n">Your Account</a>
+               <a href="About website" class="n">Return center</a>
+               <a href="About website" class="n">100% Purchase Protection</a>
+               <a href="About website" class="n">Tstore App Download</a>
+               <a href="About website" class="n">Help</a>
+          </div>
+          
+      </div>
+          
+         <div class="end-logo">
+            <h1 class="end"><span class=logo>T</span>store<p id="thanks">Thanks for visiting</p></h1>
+         </div>
+          
+   </footer>
+    
+</body>
+</html>
